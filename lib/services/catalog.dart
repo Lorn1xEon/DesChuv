@@ -1,0 +1,43 @@
+import '../models/track.dart';
+
+// Перевірені Deezer ID (36 кандидатів). Перед кожною грою беруться 10 випадкових треків.
+// Доступність прев’ю перевіряється онлайн під час підготовки партії.
+// Назви й виконавці використовуються лише для ідентифікації; аудіофайли не включені.
+const demoTracks = <Track>[
+  Track(id: 632447, title: 'Bye Bye Bye', artist: '*NSYNC'),
+  Track(id: 1910296687, title: 'BLOW MY HIGH', artist: 'MURDAMANE'),
+  Track(id: 136145500, title: 'After Dark', artist: 'Mr.Kitty'),
+  Track(id: 3758389642, title: 'TEST ME', artist: 'CHANMINA'),
+  Track(id: 2599718352, title: 'CROW', artist: 'Upiko'),
+  Track(id: 1863872967, title: 'NIGHT DANCER', artist: 'imase'),
+  Track(id: 78527795, title: 'Counting Stars', artist: 'OneRepublic'),
+  Track(id: 871458042, title: 'My Demons', artist: 'STARSET'),
+  Track(id: 118504700, title: 'Hard Drive', artist: 'Griffinilla'),
+  Track(id: 1858151477, title: 'Sunroof', artist: 'Nicky Youre'),
+  Track(id: 2104852627, title: 'Spectre', artist: 'Skorde'),
+  Track(id: 1987670227, title: 'BAD INTENTIONS', artist: 'MURDAMANE'),
+  Track(id: 1455873802, title: 'HORIZON', artist: 'EVVORTEX'),
+  Track(id: 1255763602, title: 'Haunted', artist: 'Laura Les'),
+  Track(id: 658510702, title: 'Wannabe', artist: 'Why Mona'),
+  Track(id: 3794767452, title: 'Mortals', artist: 'Warriyo'),
+  Track(id: 4152840552, title: 'unhappy', artist: 's0rrow'),
+  Track(id: 2081524097, title: 'Bobi-Boba', artist: 'BOBI & BOBA'),
+  Track(id: 3794543062, title: 'Cradles', artist: 'Sub Urban'),
+  Track(id: 141822951, title: 'Alone', artist: 'Alan Walker'),
+  Track(id: 901110692, title: 'All the Smoke, Pt. 2', artist: 'Elijah Ghost'),
+  Track(id: 1412378502, title: 'CANT STEP TO US', artist: 'Hies'),
+  Track(id: 128239635, title: 'Black Panther', artist: 'Crystal Castles'),
+  Track(id: 3761560132, title: 'Cry For Me (WA WA WA) (feat. Bubi)', artist: 'Ironmouse'),
+  Track(id: 2275275277, title: 'poster boy', artist: '2hollis'),
+  Track(id: 1380218232, title: 'COSMOS', artist: 'Enxk'),
+  Track(id: 3459977161, title: 'Devil in Disguise', artist: 'Marino'),
+  Track(id: 528330441, title: 'Believer', artist: 'Imagine Dragons'),
+  Track(id: 1628717532, title: 'Devil Eyes', artist: 'ZODIVK'),
+  Track(id: 3537531961, title: 'NO BATIDÃO', artist: 'ZXKAI'),
+  Track(id: 1571795942, title: 'EMPTY DREAMS', artist: 'CYPARISS'),
+  Track(id: 962245782, title: 'White Oak', artist: 'dryhope'),
+  Track(id: 2107529827, title: 'HEAD IN DA CLOUDS (Slowed)', artist: 'MURDAMANE'),
+  Track(id: 3158144321, title: 'Favela Rose', artist: 'Bemax'),
+  Track(id: 2200315307, title: 'Sea Of Problems', artist: 'glichery'),
+  Track(id: 1355376732, title: 'Lemon', artist: 'Kenshi Yonezu'),
+];

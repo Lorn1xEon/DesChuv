@@ -1,0 +1,52 @@
+# Flutter / Dart generated files
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+*.lock.bak
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Android local / secrets
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+.env
+.env.*
+
+# Device data, exported personal listening history, and cached audio
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.mp3
+*.m4a
+*.wav
+*Takeout*
+*history*.csv
+*history*.json
+
+# iOS / build / native local artifacts
+**/Pods/
+**/.gradle/
+
+# Flutter-generated local metadata and distributions
+.flutter-plugins
+.flutter-plugins-dependencies
+*.apk
+*.aab
+*.ipa
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
